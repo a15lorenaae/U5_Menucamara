@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".menucontextual">
+
+    <item android:id="@+id/menucamara"
+        android:title="Lanzar camara"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/camara"/>
+    <item
+        android:id="@+id/menusair"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Saír"
+        android:titleCondensed="Saír">
+    </item>>
+
+</menu>
